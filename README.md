@@ -1,5 +1,5 @@
 # QAassist
-QAassist: Quality Assurance Assistent for Deep Learning-based GTV Segmentation in Head and Neck 
+QAassist: Quality Assurance Assistant for Deep Learning-based GTV Segmentation in Head and Neck 
 
 ## Project Description
 ### Objective
