@@ -11,17 +11,17 @@ QAassist: Quality Assurance Assistent for Deep Learning-based GTV Segmentation i
 
 ### Core Functionality
 
-1. Advanced Uncertainty Assessment
+#### 1. Advanced Uncertainty Assessment
 - Enables users to input probability maps or uncertainty estimations alongside predicted segmentations (masks) and images (e.g., CT, PET, T1w, T2w).
 - Incorporates uncertainty estimation methods to provide confidence levels for model predictions, enhancing reliability.
 
-2. Segmentation Accuracy Prediction
+#### 2. Segmentation Accuracy Prediction
 - In the absence of uncertainty estimation, QAassist uses provided segmentations and imaging data (which can be singular, like only CT) to predict segmentation accuracy.
 - Employs metrics such as DICE, HD95, MSD, or Surface-Dice for accuracy assessment.
 
-3. Quality Assurance
+#### 3. Quality Assurance
 - The primary goal is to predict the segmentation accuracy for quality assurance purposes.
 - Facilitates the evaluation of the deep learning model's performance in real-world clinical applications.
 
-4. Flexibility in Data Requirements
+#### 4. Flexibility in Data Requirements
 - Accommodates incomplete data sets, not requiring all four imaging modalities for functionality.
